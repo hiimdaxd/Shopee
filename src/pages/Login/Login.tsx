@@ -27,7 +27,10 @@ export default function Login() {
                 </div>
                 <div className='mt-2 text-red-600 min-h-[1rem] text-sm'></div>
                 <div className='mt-3'>
-                  <button className='w-full text-center py-4 px-2 bg-red-500 text-white text-sm hover:bg-red-600'>
+                  <button
+                    type='submit'
+                    className='w-full text-center py-4 px-2 bg-red-500 text-white text-sm hover:bg-red-600'
+                  >
                     ĐĂNG NHẬP
                   </button>
                 </div>
